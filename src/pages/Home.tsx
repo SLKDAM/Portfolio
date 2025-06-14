@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen pt-24 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative min-h-screen pt-24 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Animated Background Gradient */}
         <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 opacity-80"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.1),transparent_50%),radial-gradient(circle_at_70%_70%,rgba(16,185,129,0.1),transparent_50%)]"></div>
