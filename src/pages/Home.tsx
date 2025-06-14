@@ -53,15 +53,15 @@ const Home = () => {
 
             {/* Enhanced Profile Photo */}
             <div className="flex justify-center lg:justify-end animate-fadeIn">
-              <div className="relative group">
+              <div className="relative group mr-12">
                 {/* Animated Gradient Border */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-emerald-400 to-blue-400 blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                <div className="w-80 h-80 rounded-full bg-gradient-to-r from-emerald-400/30 to-blue-400/30 p-[3px] relative backdrop-blur-sm hover:scale-105 transition-transform duration-300">
+                <div className="w-80 h-80  rounded-full bg-gradient-to-r from-emerald-400/30 to-blue-400/30 p-[3px] relative backdrop-blur-sm hover:scale-105 transition-transform duration-300">
                   <div className="w-full h-full rounded-full overflow-hidden bg-slate-900/90 backdrop-blur">
                     <img
-                      src="src/assets/images/profilephoto.jpg"
+                      src="/profilephoto.jpg"
                       alt="Profile Photo"
-                      className="w-md h-md object-cover hover:scale-10 transition-transform duration-500"
+                      className="w-md h-md object-fill hover:scale-10 transition-transform duration-500"
                     />
                   </div>
                 </div>
