@@ -59,7 +59,7 @@ const Home = () => {
                 <div className="w-80 h-80 rounded-full bg-gradient-to-r from-emerald-400/30 to-blue-400/30 p-[3px] relative backdrop-blur-sm hover:scale-105 transition-transform duration-300">
                   <div className="w-full h-full rounded-full overflow-hidden bg-slate-900/90 backdrop-blur">
                     <img
-                      src="/profilephoto.jpg"
+                      src="src/assets/images/profilephoto.jpg"
                       alt="Profile Photo"
                       className="w-md h-md object-cover hover:scale-10 transition-transform duration-500"
                     />
